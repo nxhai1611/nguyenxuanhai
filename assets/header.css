@@ -1,0 +1,92 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1290px;
+}
+
+.top-nav {
+    background-color: #184287;
+    color: #ccc;
+}
+
+.hero-menu ul li a {
+    color: #ccc;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 600;
+    padding-right: 15px;
+}
+.hero-menu ul li {
+    float: left;
+    border-right: 1px solid #666976;
+}
+.hero-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+}
+.hero-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p.hero-text {
+    margin: 0;
+    padding: 8px;
+    font-weight: 500;
+    color: #fff;
+    font-size: .85rem;
+}
+
+a.navbar-brand img {
+    width: 300px;
+}
+
+ul.navbar-nav.mr-auto {
+    /* display: contents; */
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    background-color: #184287;
+    border: none;
+    color: #fff;
+    margin: 0 20px;
+}
+
+a.btn-contact {
+    background-color: #184287;
+    box-shadow: 0 3px 6px -4px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 50px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: transparent!important;
+}
+
+ul.navbar-nav.mr-auto {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+@media (max-width: 720px) {
+    ul.navbar-nav.mr-auto {
+        float: inherit;
+        display: block;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}

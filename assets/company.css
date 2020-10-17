@@ -1,0 +1,60 @@
+.company-wrapper {
+    background-image: url(img/nv.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 35px;
+}
+
+.inner-company {
+    padding: 90px 35px;
+}
+.inner-company h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-shadow: -3px 0px 3px #0000003d;
+}
+
+.inner-company p {
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.about-company-wrapper {
+    background: #184287;
+    color: #eaeaea;
+    padding: 20px 0;
+}
+
+.about-title {
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+h3.eb-title {
+    color: rgb(249, 246, 31);
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+}
+
+.eb-image img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.about-inner-company p {
+    font-size: 1.05rem;
+}
+
+.news-wrapper {
+    padding: 35px 0;
+}
